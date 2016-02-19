@@ -1,0 +1,92 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalSignal", "DigitalSignal\DigitalSignal.csproj", "{0A8216AD-C69C-4DB6-B388-A3D4F58F9CCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeoscienceMath", "..\GeoscienceMath\GeoscienceMath\GeoscienceMath\GeoscienceMath.csproj", "{CD61FE7F-1490-43B8-8888-7F8DDED61537}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestData", "TestData\TestData.csproj", "{2AF05C22-8576-4317-A72A-6AF90377A542}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSVMsharp.Examples.Classification", "LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\LibSVMsharp.Examples.Classification.csproj", "{40F859AD-241A-4379-831C-8FB69BE6A8B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibSVMsharp", "LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp\LibSVMsharp.csproj", "{AC04337C-E542-4BE9-8DBD-5B44535299E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test2", "Test2\Test2.csproj", "{13E55BE8-4314-466E-B43B-F3C6840B3726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2A421138-EF09-4A17-B70F-6F11D2A134E0}"
+	ProjectSection(SolutionItems) = preProject
+		DLLs\ABMath.dll = DLLs\ABMath.dll
+		DLLs\MathNet.Numerics.dll = DLLs\MathNet.Numerics.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeployPlugin", "DeployPlugin\DeployPlugin.csproj", "{F747DC8D-D10F-430D-828F-E3689055856C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0A8216AD-C69C-4DB6-B388-A3D4F58F9CCE} = {0A8216AD-C69C-4DB6-B388-A3D4F58F9CCE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 8
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://asdfasdf126.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = DigitalSignal\\DigitalSignal.csproj
+		SccProjectName1 = DigitalSignal
+		SccLocalPath1 = DigitalSignal
+		SccProjectUniqueName2 = ..\\GeoscienceMath\\GeoscienceMath\\GeoscienceMath\\GeoscienceMath.csproj
+		SccProjectName2 = ../GeoscienceMath/GeoscienceMath/GeoscienceMath
+		SccLocalPath2 = ..\\GeoscienceMath\\GeoscienceMath\\GeoscienceMath
+		SccProjectUniqueName3 = TestData\\TestData.csproj
+		SccProjectName3 = TestData
+		SccLocalPath3 = TestData
+		SccProjectUniqueName4 = LibSVMsharp-master\\LibSVMsharp-master\\LibSVMsharp.Examples.Classification\\LibSVMsharp.Examples.Classification.csproj
+		SccProjectName4 = LibSVMsharp-master/LibSVMsharp-master/LibSVMsharp.Examples.Classification
+		SccLocalPath4 = LibSVMsharp-master\\LibSVMsharp-master\\LibSVMsharp.Examples.Classification
+		SccProjectUniqueName5 = LibSVMsharp-master\\LibSVMsharp-master\\LibSVMsharp\\LibSVMsharp.csproj
+		SccProjectName5 = LibSVMsharp-master/LibSVMsharp-master/LibSVMsharp
+		SccLocalPath5 = LibSVMsharp-master\\LibSVMsharp-master\\LibSVMsharp
+		SccProjectUniqueName6 = Test2\\Test2.csproj
+		SccProjectName6 = Test2
+		SccLocalPath6 = Test2
+		SccProjectUniqueName7 = DeployPlugin\\DeployPlugin.csproj
+		SccProjectName7 = DeployPlugin
+		SccLocalPath7 = DeployPlugin
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A8216AD-C69C-4DB6-B388-A3D4F58F9CCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A8216AD-C69C-4DB6-B388-A3D4F58F9CCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A8216AD-C69C-4DB6-B388-A3D4F58F9CCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A8216AD-C69C-4DB6-B388-A3D4F58F9CCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD61FE7F-1490-43B8-8888-7F8DDED61537}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD61FE7F-1490-43B8-8888-7F8DDED61537}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD61FE7F-1490-43B8-8888-7F8DDED61537}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD61FE7F-1490-43B8-8888-7F8DDED61537}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AF05C22-8576-4317-A72A-6AF90377A542}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF05C22-8576-4317-A72A-6AF90377A542}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF05C22-8576-4317-A72A-6AF90377A542}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF05C22-8576-4317-A72A-6AF90377A542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F859AD-241A-4379-831C-8FB69BE6A8B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F859AD-241A-4379-831C-8FB69BE6A8B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F859AD-241A-4379-831C-8FB69BE6A8B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F859AD-241A-4379-831C-8FB69BE6A8B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC04337C-E542-4BE9-8DBD-5B44535299E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13E55BE8-4314-466E-B43B-F3C6840B3726}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13E55BE8-4314-466E-B43B-F3C6840B3726}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13E55BE8-4314-466E-B43B-F3C6840B3726}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13E55BE8-4314-466E-B43B-F3C6840B3726}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F747DC8D-D10F-430D-828F-E3689055856C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F747DC8D-D10F-430D-828F-E3689055856C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F747DC8D-D10F-430D-828F-E3689055856C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F747DC8D-D10F-430D-828F-E3689055856C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

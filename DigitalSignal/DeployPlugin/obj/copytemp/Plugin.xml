@@ -1,0 +1,24 @@
+<InstalledPlugins>
+  <Plugin>
+  <Name>Plugin</Name>
+  <Contact>contact@company.info</Contact>
+  <PluginTypeName>DigitalSignal.Plugin, DigitalSignal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null</PluginTypeName>
+  <PluginUri>http://www.pluginuri.info/</PluginUri>
+  <PluginId>://DigitalSignal.Plugin/1.0.0.0</PluginId>
+  <Trust PublicKeyToken="">Default</Trust>
+  <ReleaseDate>2015-07-22</ReleaseDate>
+  <Author>James Perkins</Author>
+  <AppVersion>2014.1</AppVersion>
+  <Modules>
+    <Module TypeName="DigitalSignal.Module, DigitalSignal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+      
+    </Module>
+  </Modules>
+  <Assemblies>
+    <Assembly Name="DigitalSignal, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+  </Assemblies>
+  
+  <StartMode>Startup</StartMode>
+  <StartupAction>None</StartupAction>
+</Plugin>
+</InstalledPlugins>

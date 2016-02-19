@@ -1,0 +1,7 @@
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp\bin\Debug\libsvm.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp\bin\Debug\LIBSVM_COPYRIGHT
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp\bin\Debug\LibSVMsharp.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp\bin\Debug\LibSVMsharp.pdb
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp\obj\Debug\LibSVMsharp.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp\obj\Debug\LibSVMsharp.pdb
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp\obj\Debug\LibSVMsharp.csprojResolveAssemblyReference.cache

@@ -1,0 +1,11 @@
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\bin\Debug\libsvm.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\bin\Debug\LIBSVM_COPYRIGHT
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\bin\Debug\mod.txt
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\bin\Debug\Test2.exe.config
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\bin\Debug\Test2.exe
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\bin\Debug\Test2.pdb
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\bin\Debug\LibSVMsharp.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\bin\Debug\LibSVMsharp.pdb
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\obj\Debug\Test2.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\obj\Debug\Test2.exe
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\Test2\obj\Debug\Test2.pdb

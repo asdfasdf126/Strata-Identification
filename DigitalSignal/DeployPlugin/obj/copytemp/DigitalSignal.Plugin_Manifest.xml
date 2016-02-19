@@ -1,0 +1,5 @@
+<Deployment>
+  <Files>
+    <File Name="DigitalSignal.dll" />
+  </Files>
+</Deployment>

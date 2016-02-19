@@ -1,0 +1,15 @@
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\GeoscienceMath.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\GeoscienceMath.pdb
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\ABMath.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\MathNet.Filtering.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\MathNet.Filtering.Kalman.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\MathNet.Numerics.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\MathNet.Filtering.xml
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\MathNet.Filtering.Kalman.xml
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\bin\Debug\MathNet.Numerics.xml
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\obj\Debug\GeoscienceMath.DynamicBoxes.resources
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\obj\Debug\GeoscienceMath.Selection.resources
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\obj\Debug\GeoscienceMath.csproj.GenerateResource.Cache
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\obj\Debug\GeoscienceMath.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\obj\Debug\GeoscienceMath.pdb
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\GeoscienceMath\GeoscienceMath\GeoscienceMath\obj\Debug\GeoscienceMath.csprojResolveAssemblyReference.cache

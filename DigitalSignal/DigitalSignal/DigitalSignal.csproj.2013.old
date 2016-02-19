@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <!--ProjectType:Plugin-->
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0A8216AD-C69C-4DB6-B388-A3D4F58F9CCE}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DigitalSignal</RootNamespace>
+    <AssemblyName>DigitalSignal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Slb.Ocean.Data, Version=2014.1.0.0, Culture=neutral, PublicKeyToken=14ef4a483ef6a64b, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Schlumberger\Petrel 2014\Public\Slb.Ocean.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Slb.Ocean.Petrel.Configuration, Version=14.1.0.0, Culture=neutral, PublicKeyToken=d42cec326f61051f, processorArchitecture=MSIL">
+      <Private>False</Private>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Schlumberger\Petrel 2014\Public\Slb.Ocean.Petrel.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Slb.Ocean.Petrel.UI.Controls, Version=14.1.0.0, Culture=neutral, PublicKeyToken=da9605198f529641, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Schlumberger\Petrel 2014\Public\Slb.Ocean.Petrel.UI.Controls.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Slb.Ocean.Petrel.Well">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Schlumberger\Petrel 2014\Public\Slb.Ocean.Petrel.Well.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Slb.Ocean.Units, Version=2014.1.0.0, Culture=neutral, PublicKeyToken=14ef4a483ef6a64b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\Schlumberger\Petrel 2014\Public\Slb.Ocean.Units.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Design" />
+    <Reference Include="system.drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="system.windows.forms" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="Slb.Ocean.Core">
+      <Name>Slb.Ocean.Core</Name>
+      <HintPath>$(Ocean2014Home)\Public\Slb.Ocean.Core.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Slb.Ocean.Petrel">
+      <Name>Slb.Ocean.Petrel</Name>
+      <HintPath>$(Ocean2014Home)\Public\Slb.Ocean.Petrel.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Slb.Ocean.Basics">
+      <Name>Slb.Ocean.Basics</Name>
+      <HintPath>$(Ocean2014Home)\Public\Slb.Ocean.Basics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Slb.Ocean.Geometry">
+      <Name>Slb.Ocean.Geometry</Name>
+      <HintPath>$(Ocean2014Home)\Public\Slb.Ocean.Geometry.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DisplayWindow.cs" />
+    <Compile Include="DisplayWindowImageInfo.cs" />
+    <Compile Include="DisplayWindowNameInfo.cs" />
+    <Compile Include="DisplayWindowUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DisplayWindowUI.designer.cs">
+      <DependentUpon>DisplayWindowUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DSPWindow.cs" />
+    <Compile Include="DSPWindowImageInfo.cs" />
+    <Compile Include="DSPWindowNameInfo.cs" />
+    <Compile Include="DSPWindowUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DSPWindowUI.designer.cs">
+      <DependentUpon>DSPWindowUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\GroupLog.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\GroupLog.Designer.cs">
+      <DependentUpon>GroupLog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Module.cs" />
+    <Compile Include="Plugin.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SignalProcess.cs" />
+    <Compile Include="SignalProcessUI.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SignalProcessUI.designer.cs">
+      <DependentUpon>SignalProcessUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\WellSelection.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Forms\WellSelection.Designer.cs">
+      <DependentUpon>WellSelection.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="DisplayWindowUI.resx">
+      <DependentUpon>DisplayWindowUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DSPWindowUI.resx">
+      <DependentUpon>DSPWindowUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\GroupLog.resx">
+      <DependentUpon>GroupLog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SignalProcessUI.resx">
+      <DependentUpon>SignalProcessUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\WellSelection.resx">
+      <DependentUpon>WellSelection.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\GeoscienceMath\GeoscienceMath\GeoscienceMath\GeoscienceMath.csproj">
+      <Project>{cd61fe7f-1490-43b8-8888-7f8dded61537}</Project>
+      <Name>GeoscienceMath</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>del "$(ProjectDir)\plugin.xml"
+"%25Ocean2014Home%25\PluginPackager.exe" /g "$(TargetPath)" "$(ProjectDir)\plugin.xml" "%25Ocean2014Home%25\petrel.exe"
+"%25Ocean2014Home%25\PluginPackager.exe" /m "$(ProjectDir)\plugin.xml" "%25Ocean2014Home%25\petrel.exe" "$(TargetDir)"
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+		Other similar extension points exist, see Microsoft.Common.targets.
+	<Target Name="BeforeBuild">
+	</Target>
+	<Target Name="AfterBuild">
+	</Target>
+	-->
+</Project>

@@ -1,0 +1,14 @@
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\libsvm.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\LIBSVM_COPYRIGHT
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\Dataset\mod.txt
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\Dataset\mod2.txt
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\Dataset\wine.txt
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\Model\wine_model.txt
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\LibSVMsharp.Examples.Classification.exe.config
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\LibSVMsharp.Examples.Classification.exe
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\LibSVMsharp.Examples.Classification.pdb
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\LibSVMsharp.dll
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\bin\Debug\LibSVMsharp.pdb
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\obj\Debug\LibSVMsharp.Examples.Classification.csprojResolveAssemblyReference.cache
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\obj\Debug\LibSVMsharp.Examples.Classification.exe
+C:\Users\James\Documents\Visual Studio 2012\Projects\Well Log Interpretation\DigitalSignal\LibSVMsharp-master\LibSVMsharp-master\LibSVMsharp.Examples.Classification\obj\Debug\LibSVMsharp.Examples.Classification.pdb
